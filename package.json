@@ -1,0 +1,23 @@
+{
+  "name": "mp-arduino-monitor",
+  "version": "1.0.0",
+  "description": "Servidor para monitorear por puerto serie el estado de los sensores de un arduino",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marpresi/mp-arduino-monitor.git"
+  },
+  "keywords": [
+    "monitor",
+    "arduino"
+  ],
+  "author": "marpresi",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/marpresi/mp-arduino-monitor/issues"
+  },
+  "homepage": "https://github.com/marpresi/mp-arduino-monitor#readme"
+}
