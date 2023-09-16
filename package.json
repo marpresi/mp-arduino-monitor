@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Servidor para monitorear por puerto serie el estado de los sensores de un arduino",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/marpresi/mp-arduino-monitor/issues"
   },
-  "homepage": "https://github.com/marpresi/mp-arduino-monitor#readme"
+  "homepage": "https://github.com/marpresi/mp-arduino-monitor#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "serialport": "^12.0.0"
+  }
 }
